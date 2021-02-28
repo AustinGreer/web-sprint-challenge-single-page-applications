@@ -30,9 +30,9 @@ const initialForm = {
 
 export default function Forms () {
     const [forms, setForms] = useState(initialForm)
-    const [error, setError] = useState({
-        name: ''
-    })
+    // const [error, setError] = useState({
+    //     name: ''
+    // })
     
     const change = (event) => {
 
